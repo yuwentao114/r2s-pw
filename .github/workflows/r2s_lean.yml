@@ -98,7 +98,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-ipsec-vpnd is not set
           # CONFIG_PACKAGE_luci-app-music-remote-center is not set
           CONFIG_PACKAGE_luci-app-mwan3=y
-          CONFIG_PACKAGE_luci-app-nft-qos=y
+          CONFIG_PACKAGE_luci-app-eqos=y
           # CONFIG_PACKAGE_luci-app-openvpn-server is not set
           # CONFIG_PACKAGE_luci-app-passwall is not set
           # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook is not set
@@ -215,6 +215,8 @@ jobs:
           git clone https://github.com/fw876/helloworld.git
           mv helloworld/luci-app-ssr-plus/ ./lean
           rm -rf helloworld/
+          git clone https://github.com/garypang13/luci-app-eqos.git
+          mv luci-app-eqos/ ./lean
 
       - name: Build FriendlyWrt
         run: |
