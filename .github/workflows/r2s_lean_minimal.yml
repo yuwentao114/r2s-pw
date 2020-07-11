@@ -16,7 +16,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    if: github.repository == 'yuwentao114/r2s-ssr'
 
     steps:
 
