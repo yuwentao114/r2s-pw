@@ -219,6 +219,8 @@ jobs:
           git clone https://github.com/songchenwen/nanopi-r2s.git
           mv nanopi-r2s/luci-app-r2sflasher/ ./lean
           rm -rf nanopi-r2s/
+          git clone https://github.com/project-openwrt/luci-app-koolproxyR.git
+          mv luci-app-koolproxyR/ ./lean
       #    git clone https://github.com/garypang13/luci-app-eqos.git
       #    mv luci-app-eqos/ ./lean
 
