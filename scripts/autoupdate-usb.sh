@@ -52,3 +52,4 @@ if [ -f /tmp/FriendlyWrtupdate.img.zst ]; then
 	echo -e '\e[92m刷机完毕，正在重启...\e[0m'	
 	echo b > /proc/sysrq-trigger
 fi
+
