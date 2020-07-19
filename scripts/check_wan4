@@ -9,4 +9,3 @@ start_service() {
     procd_set_param command /bin/sh "/usr/bin/check_wan4.sh"
     procd_close_instance
 }
-
