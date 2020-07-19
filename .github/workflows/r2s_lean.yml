@@ -87,7 +87,8 @@ jobs:
           CONFIG_PACKAGE_ddns-scripts_cloudflare.com-v4=y
           CONFIG_PACKAGE_kmod-rtl8xxxu=y
           # CONFIG_PACKAGE_luci-app-accesscontrol is not set
-          CONFIG_PACKAGE_luci-app-adbyby-plus=y
+          # CONFIG_PACKAGE_luci-app-adbyby-plus is not set
+          CONFIG_PACKAGE_luci-app-koolproxyR=y
           # CONFIG_PACKAGE_luci-app-airplay2 is not set
           # CONFIG_PACKAGE_luci-app-amule is not set
           CONFIG_PACKAGE_luci-app-arpbind=y
