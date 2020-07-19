@@ -96,7 +96,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-ddns=y
           CONFIG_PACKAGE_luci-app-filetransfer=y
           CONFIG_PACKAGE_luci-app-firewall=y
-          CONFIG_PACKAGE_luci-app-flowoffload=y
           # CONFIG_PACKAGE_luci-app-ipsec-vpnd is not set
           # CONFIG_PACKAGE_luci-app-music-remote-center is not set
           CONFIG_PACKAGE_luci-app-mwan3=y
@@ -201,7 +200,7 @@ jobs:
       - name: Add Passwall
         run: |
           cd friendlywrt-rk3328/friendlywrt
-          echo -e '\nsrc-git lienol https://github.com/SuLingGG/openwrt-package' >> feeds.conf.default
+          echo -e '\nsrc-git lienol https://github.com/Lienol/openwrt-package' >> feeds.conf.default
           ./scripts/feeds update -a
           rm -rf feeds/lienol/lienol/ipt2socks
           rm -rf feeds/lienol/lienol/shadowsocksr-libev
